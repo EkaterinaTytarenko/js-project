@@ -1,0 +1,29 @@
+.jumbotron {
+    height: 250px;
+    background-image:url("../images/background.jpg");
+    background-size: cover;
+}
+
+.text-animation{
+    animation-name: text-animation;
+    animation-duration: 0.45s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes text-animation {
+    from {font-size:795%;}
+    to {font-size:815%;}
+}
+
+.container-fluid{
+    padding:40px 30px 115px 85px;
+}
+
+.page-footer{
+    padding-left: 80px;
+}
+
+span:hover{
+    cursor: pointer;
+}
